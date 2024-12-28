@@ -43,12 +43,12 @@ DilationDepthWiseConvolutionModel/
 |-- config/
     |-- config.json
 |-- data/
-    |-- cifar10_data_loader.py
+    |-- cifar10_dataset_loader.py
     |-- cifar10_dataset.py
     |-- data_loader.py
     |-- datasets.py
 |-- models/
-    |-- base_network_utils.py
+    |-- base_nn_network_utils.py
     |-- cifar10_dialation_dsc_noMaxpool.py
 |-- training/
     |-- optimizers.py
@@ -69,7 +69,8 @@ DilationDepthWiseConvolutionModel/
 
 ### 1. Clone the Repository
 ```bash
-
+git clone https://github.com/TousifAhamed/CIFAR10.git
+cd CIFAR10
 ```
 
 ### 2. Install Dependencies
